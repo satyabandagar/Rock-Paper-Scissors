@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
+
+
 <body>
-    
+    <div class="parent">
+        <div class="right">
+            <button id="btn"><i onclick="backColor()" class="fa-solid fa-moon"></i></button>
+        </div>
+
+        <div class="body">
+            <h1>🎮 Rock Paper Scissors</h1>
+
+
+            <div class="buttons">
+                <button onclick="playGame('rock')">🪨 Rock</button>
+                <button onclick="playGame('paper')">📄 Paper</button>
+                <button onclick="playGame('scissors')">✂️ Scissors</button>
+            </div>
+
+            <div class="result" id="result"></div>
+            <div class="score" id="score"></div>
+        </div>
+    </div>
+
     <script src="Script.js"></script>
 </body>
+
 </html>
