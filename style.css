@@ -5,7 +5,7 @@
     overflow: hidden;
 }
  .parent{
-    background-color: rgba(41, 41, 41, 0.903); 
+    background-color: rgba(41, 41, 41, 0.37); 
 }
 .right{
     display: flex;
@@ -44,4 +44,12 @@
     font-size: 18px;
     color: white;
     cursor: pointer; 
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    margin: 10px;
 }
